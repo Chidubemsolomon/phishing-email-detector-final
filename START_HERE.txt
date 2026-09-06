@@ -1,0 +1,27 @@
+PROJECT: AI-Powered Phishing Email Detection and Email Security System
+
+CURRENT STATUS
+- Model trained successfully.
+- Streamlit application code prepared.
+- Automated tests pass when run with `python -m pytest -q`.
+- Actual evaluation results are stored in model/metrics.json.
+
+ACTUAL RESULTS
+Accuracy: 90.00%
+Precision: 100.00%
+Recall: 80.00%
+F1-score: 88.89%
+ROC-AUC: 96.00%
+Dataset used: 100 records (50 phishing, 50 benign)
+Train/Test: 80/20
+
+NEXT STEP FOR DEPLOYMENT
+1. Upload this repository to GitHub.
+2. Open Streamlit Community Cloud.
+3. Select the repository.
+4. Select app.py.
+5. Deploy.
+
+IMPORTANT
+The dataset is a 100-row balanced subset of the public 200-row dataset.
+Do not report the model as perfect or enterprise-ready.
