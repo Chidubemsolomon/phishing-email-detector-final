@@ -6,7 +6,7 @@ from pathlib import Path
 import joblib
 from scipy.sparse import hstack
 
-from .features import build_numeric_features, combined_text, feature_reasons
+from features import build_numeric_features, combined_text, feature_reasons
 
 
 def load_bundle(model_path: str | Path):
