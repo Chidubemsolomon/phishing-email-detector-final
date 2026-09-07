@@ -5,7 +5,7 @@ from pathlib import Path
 
 import streamlit as st
 
-from src.model_utils import load_bundle, predict_email
+from model_utils import load_bundle, predict_email
 
 ROOT = Path(__file__).resolve().parent
 MODEL_PATH = ROOT / "model" / "phishing_model.joblib"
